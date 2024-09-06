@@ -1,36 +1,103 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CodeNex Recruitment Website
 
-## Getting Started
+Welcome to the CodeNex Recruitment Website! This project was developed by Parth, the founder of the CodeNex Club at SRM, using Next.js. The website serves as a platform for recruiting new members and showcasing the club's activities and opportunities.
 
-First, run the development server:
+## Table of Contents
 
-```bash
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- **Recruitment Forms:** Easily apply for membership and internships.
+- **Club Information:** Detailed descriptions of the club’s activities, events, and projects.
+- **Event Listings:** Keep track of upcoming events and workshops.
+- **Member Portal:** Access exclusive content and updates for club members.
+- **Responsive Design:** Optimized for all devices, including desktops, tablets, and smartphones.
+
+## Technologies Used
+
+- **Next.js**: Framework for server-side rendering and static site generation.
+- **React**: JavaScript library for building user interfaces.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **TypeScript**: Superset of JavaScript providing static types.
+- **Node.js**: JavaScript runtime for server-side code execution.
+- **Vercel**: Platform for deploying Next.js applications.
+
+## Installation
+
+To get started with the CodeNex Recruitment Website locally, follow these steps:
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/your-username/codenex-recruitment-website.git
+   cd codenex-recruitment-website
+   ```
+
+2.**Install Dependencies:**
+
+   ```bash
+   npm install
+   # or
+   yarn install
+```
+
+3.**Run the Development Server:**
+   ```bash
+
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Visit http://localhost:3000 in your browser to view the website.
 
-## Learn More
+***Contributing***
+We welcome contributions to enhance the CodeNex Recruitment Website! If you’d like to contribute, follow these steps:
 
-To learn more about Next.js, take a look at the following resources:
+Fork the Repository:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Click the "Fork" button on the top right of this repository page to create a copy under your GitHub account.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Create a Branch:
 
-## Deploy on Vercel
+```bash
+Copy code
+git checkout -b feature/your-feature
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Make Changes:
+Implement your changes and commit them:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+
+Copy code
+git add .
+git commit -m "Describe your changes here"
+Push Changes:
+```
+```bash
+Copy code
+git push origin feature/your-feature
+Submit a Pull Request:
+```
+-Go to the repository on GitHub and create a pull request with your proposed changes.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Contact
+For any questions or inquiries, please contact:
+
+***Parth***
+**Founder, CodeNex Club SRM
+Email: parth26nath@example.com
+GitHub: @parth26nath**
+
