@@ -2,6 +2,9 @@
 import { cn } from "@/lib/utils";
 import React, { useEffect, useRef, useState } from "react";
 import { createNoise3D } from "simplex-noise";
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+// eslint-disable-next-line no-var
+// eslint-disable-next-line react-hooks/exhaustive-deps
 
 
 

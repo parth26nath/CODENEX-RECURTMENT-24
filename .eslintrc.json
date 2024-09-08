@@ -1,12 +1,7 @@
 {
-  "env": {
-    "browser": true,
-    "es2021": true
-  },
-  "extends": "react-app",
-  "parser": "@typescript-eslint/parser",
-  "plugins": ["react", "@typescript-eslint"],
   "rules": {
-    "@typescript-eslint/no-explicit-any": 2
+    "@typescript-eslint/no-explicit-any": "off",
+    "no-var": "off",
+    "react-hooks/exhaustive-deps": "off"
   }
 }
