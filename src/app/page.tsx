@@ -1,18 +1,17 @@
 // Import the necessary components
-import { LampDemo } from "./lamp";
+// import { LampDemo } from "./lamp";
 import { TimelineDemo } from "./timeline";
 import {AppleCardsCarouselDemo} from "./card"
-import {FloatingDockDemo} from "./lowerdrop"
+import {WavyBackgroundDemo} from "./wavy"
 
 
 // Define the Home component
 export default function Home() {
   return (
     <>
-      <LampDemo />
+      <WavyBackgroundDemo/>
       <AppleCardsCarouselDemo/>
       <TimelineDemo/>
-      <FloatingDockDemo/>
 
     </>
   );

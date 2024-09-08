@@ -16,6 +16,25 @@ export function AppleCardsCarouselDemo() {
         Domains
       </h2>
       <Carousel items={cards} />
+
+      {/* Apply Now Button */}
+      <div className="flex justify-center mt-16">
+        <a
+          href="https://lu.ma/event/evt-6XkDzxArfTQUwQ4"
+          className="bg-blue-600 hover:bg-blue-800 text-white font-bold py-2 px-6 rounded-lg"
+          data-luma-action="checkout"
+          data-luma-event-id="evt-6XkDzxArfTQUwQ4"
+        >
+          Apply Now
+        </a>
+      </div>
+
+      {/* Luma Checkout Script */}
+      <script
+        id="luma-checkout"
+        src="https://embed.lu.ma/checkout-button.js"
+        async
+      ></script>
     </div>
   );
 }
