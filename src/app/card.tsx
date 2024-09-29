@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { Carousel, Card } from "@/components/ui/apple-cards-carousel";
-import TECH from "./image.jpg";
+import TECH from "./image.png";
 import nocorp from "./hell1.png";
 import creat from "./hell.png";
 

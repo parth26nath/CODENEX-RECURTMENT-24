@@ -12,7 +12,7 @@ export function WavyBackgroundDemo() {
     seconds: 0,
   });
 
-  const recruitmentEndDate = new Date("2024-09-30T23:59:59").getTime();
+  const recruitmentEndDate = new Date("2024-10-09T23:59:59").getTime();
 
   useEffect(() => {
     const countdownInterval = setInterval(() => {
